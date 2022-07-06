@@ -1,3 +1,18 @@
 {
-  "RegistartionDetails": []
+  "RegistartionDetails": [
+    {
+      "fullName": "Sivaraman K",
+      "mobileno": "6380311495",
+      "emailid": "siva@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "fullName": "Praveen",
+      "mobileno": "9150045145",
+      "emailid": "praveen@gmail.com",
+      "password": "praveen123",
+      "id": 2
+    }
+  ]
 }

@@ -50,7 +50,7 @@ function Registration() {
 
   return (
     <div className="registration-wrapper">
-      <h1>Registration</h1>
+      <h1>Register User</h1>
       {fieldEmptyError && <h4>Please Fill The Input Field</h4>}
       <div className="form-wrapper">
         <label htmlFor="fullname">Full Name</label>
@@ -117,7 +117,7 @@ function Registration() {
           <DialogTitle>{"Registartion Was Successful"}</DialogTitle>
           <DialogContent>
             <DialogContentText>
-              Please Click The Ok Button, Navigate To Login Page
+              <b>Please Click The Ok Button, Navigate To Login Page</b>
             </DialogContentText>
           </DialogContent>
           <DialogActions>
