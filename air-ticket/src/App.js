@@ -4,6 +4,7 @@ import { AiFillHome } from "react-icons/ai"
 import { AiOutlineLogin } from "react-icons/ai"
 import Login from './components/Pages/Login_Page/Login';
 import Registration from './components/Pages/Registration_Page/Registration';
+import MainPageAfterLogin from './components/Pages/Routing_Pages/Main_Page_After_Login/MainPageAfterLogin';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' element={<></>}/>
           <Route path='/login' element={<Login />}/>
           <Route path='/registration' element={<Registration />}/>
+          <Route path='/mainpage' element={<MainPageAfterLogin />}/>
         </Routes>
         </BrowserRouter>
       </nav>
